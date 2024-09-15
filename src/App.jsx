@@ -13,6 +13,7 @@ function App() {
       <div className="card">
         
       <EmpleoList/>
+    {/*  <ResponderConsulta/> */}
 
 
       </div>
