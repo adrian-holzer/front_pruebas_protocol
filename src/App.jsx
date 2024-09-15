@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import {EmpleoList} from "./components/EmpleoList"
+import {ResponderConsulta} from "./components/ResponderConsulta"
+
 import './App.css'
 
 function App() {
