@@ -21,7 +21,7 @@ export const PostulacionModal = ({ empleo, onClose }) => {
         formData.append('id_empleo', empleo.idEmpleo);
 
         try {
-            await axios.post('http://vps-4291415-x.dattaweb.com:8080/api/postulacion/upload', formData, {
+            await axios.post('api/postulacion/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
