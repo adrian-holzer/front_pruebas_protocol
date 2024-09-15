@@ -11,7 +11,7 @@ export const EmpleoList = () => {
         // Obtener la lista de empleos
         const fetchEmpleos = async () => {
             try {
-                const response = await axios.get('api/empleo/listar');
+                const response = await axios.get('http://vps-4291415-x.dattaweb.com:8080/api/empleo/listar');
 
                 setEmpleos(response.data.data);
             } catch (error) {
